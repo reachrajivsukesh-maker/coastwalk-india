@@ -1,5 +1,7 @@
 # Coastwalk India
 
+![Coastwalk India poster](promo/coastwalk-india-poster.png)
+
 Walk, drive, take a speedboat or fly along India's real coastline in 3D, from the Rann of Kutch round Kanyakumari to the Sundarbans, plus South Andaman and Kavaratti.
 
 **Open the app:** https://reachrajivsukesh-maker.github.io/coastwalk-india/

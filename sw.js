@@ -1,7 +1,7 @@
 // Keeps the app shell and the 3D libraries cached so the app opens fast.
 // Map tiles are never cached here; Cesium manages those in memory.
-const SHELL = 'coastwalk-shell-v4';
-const SHELL_FILES = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const SHELL = 'coastwalk-shell-v5';
+const SHELL_FILES = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './favicon.svg', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
 });
